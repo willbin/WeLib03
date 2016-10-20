@@ -1,0 +1,6 @@
+framework module WeLib02 {
+  umbrella header "WeLib02-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'        #官方仓库地址
+source 'https://github.com/willbin/WeLib02Specs.git'    #私有仓库地址
+
+
+inhibit_all_warnings!
+
+target 'GroupA' do
+  use_frameworks!
+
+ pod 'WeLib02'
+
+end
